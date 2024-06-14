@@ -16,7 +16,7 @@ body {
 
 .container {
     background-color: #d1d1d1;
-    height: 500px;
+    height: auto;
     width: 500px;
     border-radius: 10px;
     padding: 20px;
@@ -25,7 +25,7 @@ body {
 
 .input-task {
     border: none;
-    border-radius: 10px;
+    border-radius: 8px;
     width: 300px;
     height: 40px;
     font-size: 17px;
@@ -87,3 +87,7 @@ img {
     opacity: 1;
 }
 
+.done {
+    background-color: #8fa;
+    text-decoration: line-through;
+}
