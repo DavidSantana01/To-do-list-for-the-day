@@ -4,24 +4,24 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>To-do list for the day</title>
 </head>
 
 <body>
-    <div>
-        <h1 class="title">Lista de afazeres do dia</h1>
-        <ul id="list">
+    <div class="container">
+        <input class="input-task" placeholder="O que tenho que fazer...">
+        <button class="button-add-task">Adicionar</button>
+
+        <ul class="list-task">
+            
         </ul>
     </div>
-    <div>
-        <input type="text"
-        id="task_name"
-        placeholder="Nova tarefa"
-        >
-        <button onclick="addNewTask()" class="buttonAdd">Adicionar</button>
-    </div>
+
 </body>
-<script src="./main.js"></script>
+<script src="./scripts.js"></script>
 
 </html>
